@@ -75,3 +75,16 @@ h1 {
     font-weight: bold;
     color: #8385a9;
 }
+
+.icons-div {
+    display: flex;
+    gap: 32px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    fill: #fb5e84;
+}
