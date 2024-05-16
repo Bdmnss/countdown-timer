@@ -88,3 +88,40 @@ h1 {
 .icon:hover {
     fill: #fb5e84;
 }
+
+@media (max-width: 768px) {
+    .main-div {
+        min-height: 74.5vh;
+    }
+    
+    .icons-div {
+        background-position: top 0% left 83%;
+    }
+    
+    h1 {
+        font-size: 18px;
+        letter-spacing: 6.14px;
+        margin-bottom: 54px;
+        width: 80%;
+    }
+    
+    .time-div {
+        gap: 16px;
+    }
+    
+    .box-div {
+        height: 66.3px;
+        width: 70px;
+        margin-bottom: 13.7px;
+    }
+    
+    .time {
+        font-size: 36px;
+        letter-spacing: -1.08px;
+    }
+    
+    .time-txt {
+        font-size: 7px;
+        letter-spacing: 2.96px;
+    }
+}
